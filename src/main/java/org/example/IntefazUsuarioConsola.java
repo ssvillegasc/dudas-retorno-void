@@ -51,12 +51,12 @@ public class IntefazUsuarioConsola {
         ///File(d1)
     }*/
 
-    public static boolean sonIguales(double d1, double d2, double tolerancia){
+    /*public static boolean sonIguales(double d1, double d2, double tolerancia){
         if(Math.abs(d1-d2) < tolerancia){
             return true;
         }
         return false;
-    }
+    }*/
 
     /*public static boolean sonIguales(double d1, double d2, double tolerancia){
         boolean res = false;
@@ -67,7 +67,7 @@ public class IntefazUsuarioConsola {
         return res;
     }*/
 
-    /*public static boolean sonIguales(double d1, double d2, double tolerancia){
+    public static boolean sonIguales(double d1, double d2, double tolerancia){
         boolean res = false;
         if(Math.abs(d1-d2) < tolerancia){
             res = true;
@@ -76,5 +76,5 @@ public class IntefazUsuarioConsola {
         }
 
         return res;
-    }*/
+    }
 }
